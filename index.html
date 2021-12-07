@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-sacle=1" />
     <link href="main.css" rel="stylesheet" />
     <script type="text/javascript" src="script.js" defer></script>
+    <script type="text/javascript" src="subscribe.js"></script>
   </head>
 
   <body>
@@ -57,30 +58,15 @@
     <footer>
       <section class="container space-between lists">
         <div>
-          <div class="text-primary link-header">Customer Support</div>
-          <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Students</a></li>
-          </ul>
-          <div class="social">
-            <div class="text-primary link-header">Follow Us</div>
-            <ul>
-              <li><a class="twitter" href="#"></a></li>
-              <li><a class="facebook" href="#"></a></li>
-              <li><a class="instagram" href="#"></a></li>
-            </ul>
-            <div class="newsletter">
-              <div class="link-header">Email Updates</div>
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Enter email address"
-              />
-              <button class="btn btn-primary">Sign up</button>
-            </div>
-          </div>
-        </div>
+          <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+          <form method="get" action="thanks.html">
+            <label>Email <span>(required)</span><input type="email"
+            name="email" placeholder="someone@gmail.com" required ></label>
+            <input type="submit" value="Subscribe" class="submitBtn">
+
+          
+          </form>
+      </div>
       </section>
       <div class="text-primary copyright">&copy;KILMER 2021</div>
     </footer>
