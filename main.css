@@ -75,7 +75,7 @@ section {
 }
 .full-banner:before {
   content: "";
-  position: absolute;
+  position: relative;
   border: 1px solid #ffffff;
   top: 30px;
   bottom: 30px;
@@ -209,7 +209,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   * {
-    overflow: hidden;
+    overflow: visible;
   }
   .nav-sub {
     position: absolute;
